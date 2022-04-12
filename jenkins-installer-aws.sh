@@ -12,7 +12,7 @@ echo creating user jenkins...; sleep 3
 useradd jenkins
 echo redhat | passwd jenkins --stdin
 echo 'jenkins ALL=(ALL) NOPASSWD: ALL' > /etc/sudoers.d/jenkins
-chage -d 0 -m3 -M90 -W5 -I 7 -E 2023-04-10 jenkins
+chage -d 0 -m3 -M90 -W5 -I 7 -E 2025-04-10 jenkins
 
 echo
 echo Updating the OS...
